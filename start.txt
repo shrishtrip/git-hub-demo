@@ -1,1 +1,18 @@
 Test Git Quick Start demo
+
+# How to raise a CR in a repo
+
+1. Create a fork of that repo
+2. Now copy the HTTPS clone link
+3. Open the terminal and run 'git clone <the-copied-link>'
+4. This will download the repo locally
+5. Now create a new branch by running 'bb checkout -b "<branch-name>"'
+6. Now make the changes you want to make.
+7. Once you are done with the changes, double check the modified files with 'git status' command
+8. You can use 'git diff' command to view the changes made
+9. Once confirmed, run 'git add .'
+10. Then run 'git commit -m "<commit-message>".
+11. Now to push the changes run 'git push origin <new-branch-name>'
+12. Enter the username and PAT for github.
+13. Now go to the github and you'll see the notification for the new push made
+14. Review it, add any description and raise the PR.
